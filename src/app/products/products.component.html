@@ -1,0 +1,13 @@
+<div class="container">
+	<div class="col-xs-3 col-md-3" *ngFor="let product of productdata">
+		<div class="product-design" >
+			<img src="{{product.image}}"  class="content-img">
+			<h4 class="pro-title">{{product.title}}</h4>
+			<h5 class="pro-price">{{product.price}}</h5>
+			<p class="pro-des">{{product.description}}</p>
+			<div class="pro-check  pull-right">
+							<i class="material-icons">shopping_cart</i>
+				</div>
+		</div>
+	</div>
+</div>

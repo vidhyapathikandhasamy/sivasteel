@@ -1,0 +1,36 @@
+.footer{
+	width: 100%;
+	height: 350px;
+	background-color: var(--main-theme-color);
+	box-shadow: 0 -6px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+.ours{
+	text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: cursive;
+    margin-top: 28px;
+}
+
+.form-control {
+    color: #fff;
+    background-color: #487b49;
+    border: 1px solid #ff6700;
+    font-family: cursive;
+}
+.footer-form{
+	    margin-top: 20px;
+}
+label{
+	color: #ffffff;
+	font-family: cursive;
+}
+.btn-primary {
+    background-color: #487b49;
+    border-color: #ff6700;
+    font-family: cursive;
+}
+.btn-primary:hover {
+	background-color: #ff6700;
+	font-family: cursive;
+}
